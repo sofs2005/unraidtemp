@@ -12,7 +12,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8888]/</WebUI>
   <ExtraParams>-it</ExtraParams>
-  <TemplateURL>https://raw.githubusercontent.com/softs2005/unraidtemp/main/qinglong.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/qinglong.xml</TemplateURL>
   <Icon>https://github.com/whyour/qinglong/blob/0333365762f4ad1ed2d77d030d632f81c8cc4491/src/assets/logo.png</Icon>
   <Description>青龙，又名苍龙，在中国传统文化中是四象之一、天之四灵之一，根据五行学说，它是代表东方的灵兽，为青色的龙，五行属木，代表的季节是春季，八卦主震。苍龙与应龙一样，都是身具羽翼。《张果星宗》称“又有辅翼，方为真龙”。</Description>
   <Config Name="port" Target="5700" Default="5801" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5801</Config>
