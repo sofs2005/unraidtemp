@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>qinglong</Name>
+  <Repository>whyour/qinglong:latest</Repository>
+  <Registry>https://hub.docker.com/r/whyour/qinglong/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/whyour/qinglong</Support>
+  <Project>https://github.com/whyour/qinglong</Project>
+  <Overview>青龙，又名苍龙，在中国传统文化中是四象之一、天之四灵之一，根据五行学说，它是代表东方的灵兽，为青色的龙，五行属木，代表的季节是春季，八卦主震。苍龙与应龙一样，都是身具羽翼。《张果星宗》称“又有辅翼，方为真龙”。</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8888]/</WebUI>
+  <ExtraParams>-it</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/softs2005/unraidtemp/main/qinglong.xml</TemplateURL>
+  <Icon>https://github.com/whyour/qinglong/blob/0333365762f4ad1ed2d77d030d632f81c8cc4491/src/assets/logo.png</Icon>
+  <Description>青龙，又名苍龙，在中国传统文化中是四象之一、天之四灵之一，根据五行学说，它是代表东方的灵兽，为青色的龙，五行属木，代表的季节是春季，八卦主震。苍龙与应龙一样，都是身具羽翼。《张果星宗》称“又有辅翼，方为真龙”。</Description>
+  <Config Name="port" Target="5700" Default="5801" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5801</Config>
+  <Config Name="config" Target="/ql/config" Default="/mnt/disk1/dockerfiles/jd/ql1/config/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/ql1/config/</Config>
+  <Config Name="log" Target="/ql/log" Default="/mnt/disk1/dockerfiles/jd/ql1/log/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/ql1/log/</Config>
+  <Config Name="db" Target="/ql/db" Default="/mnt/disk1/dockerfiles/jd/ql1/db/" Mode="rw" Description="db" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/ql1/db/</Config>
+  <Config Name="scripts" Target="/ql/scripts" Default="/mnt/disk1/dockerfiles/jd/ql1/scripts/" Mode="rw" Description="scripts" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/ql1/scripts/</Config>
+  <Config Name="ENABLE_HANGUP" Target="ENABLE_HANGUP" Default="true" Mode="" Description="crazy joy" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="ENABLE_WEB_PANEL" Target="ENABLE_WEB_PANEL" Default="true" Mode="" Description="web panel" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+</Container>
