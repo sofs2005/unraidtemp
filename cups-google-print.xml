@@ -13,7 +13,7 @@
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
   <Description>cups-google-print</Description>
   <Config Name="TCP_PORT_631" Target="TCP_PORT_631" Default="631" Mode="tcp" Description="web" Type="Variable" Display="always" Required="false" Mask="false">631</Config>
-  <Config Name="config" Target="/config" Default="/mnt/user/appdata/cups-google-print/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/ql1/config/</Config>
+  <Config Name="config" Target="/config" Default="/mnt/user/appdata/cups-google-print" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cups-google-print</Config>
   <Config Name="dev" Target="/dev" Default="/dev/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/dev/</Config>
   <Config Name="avahi" Target="/avahi" Default="/etc/avahi/services" Mode="rw" Description="db" Type="Path" Display="always" Required="true" Mask="false">/etc/avahi/services</Config>
   <Config Name="dbus" Target="/var/run/dbus" Default="/var/run/dbus" Mode="rw" Description="scripts" Type="Path" Display="always" Required="true" Mask="false">/var/run/dbus</Config>
