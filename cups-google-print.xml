@@ -10,7 +10,7 @@
   <WebUI>http://[IP]:631/</WebUI>
   <ExtraParams>-d</ExtraParams>
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/cups-google-print.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
+  <Icon>https://github.com/sofs2005/unraidtemp/raw/main/Icons/printer.png</Icon>
   <Description>cups-google-print</Description>
   <Config Name="TCP_PORT_631" Target="TCP_PORT_631" Default="631" Mode="tcp" Description="web" Type="Variable" Display="always" Required="false" Mask="false">631</Config>
   <Config Name="config" Target="/config" Default="/mnt/user/appdata/cups-google-print" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cups-google-print</Config>
