@@ -10,7 +10,7 @@
   <Project>https://hub.docker.com/r/nevinee/jd</Project>
   <Overview>JD bot版</Overview>
   <Category>Tools:</Category>
-  <WebUI>http://[IP]:9876/</WebUI>
+  <WebUI>http://[IP]:[PORT:5678]/</WebUI>
   <ExtraParams>-it</ExtraParams>
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/nev4.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
