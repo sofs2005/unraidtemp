@@ -16,5 +16,4 @@
   <Description>日常签到</Description>
   <Config Name="config" Target="/dailycheckin/config" Default="/mnt/disk1/dockerfiles/dailycheckin/config" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/dailycheckin/config</Config>
   <Config Name="log" Target="/dailycheckin/logs" Default="/mnt/disk1/dockerfiles/dailycheckin/logs" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/dailycheckin/logs</Config>
-  <Config Name="Makefile" Target="/dailycheckin/Makefile" Default="/mnt/disk1/dockerfiles/dailycheckin/Makefile" Mode="rw" Description="makefile" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/dailycheckin/Makefile</Config>
 </Container>
