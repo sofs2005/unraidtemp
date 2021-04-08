@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>dailycheckin</Name>
+  <Repository>sitoi/dailycheckin</Repository>
+  <Registry>https://hub.docker.com/r/sitoi/dailycheckin</Registry>
+  <Network>bridge</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://sitoi.github.io/dailycheckin/synology/</Support>
+  <Project>https://github.com/Sitoi/dailycheckin</Project>
+  <Overview>日常签到</Overview>
+  <Category>Tools:</Category>
+  <ExtraParams>-d</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/dailycheckin.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/time.png</Icon>
+  <Description>日常签到</Description>
+  <Config Name="config" Target="/dailycheckin/config" Default="/mnt/disk1/dockerfiles/dailycheckin/config" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/dailycheckin/config</Config>
+  <Config Name="log" Target="/dailycheckin/logs" Default="/mnt/disk1/dockerfiles/dailycheckin/logs" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/dailycheckin/logs</Config>
+  <Config Name="Makefile" Target="/dailycheckin/Makefile" Default="/mnt/disk1/dockerfiles/dailycheckin/Makefile" Mode="rw" Description="db" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles//dailycheckin/Makefile</Config>
+</Container>
