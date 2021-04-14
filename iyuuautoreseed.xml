@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>iyuuautoreseed</Name>
+  <Repository>iyuucn/iyuuautoreseed</Repository>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://gitee.com/ledc/IYUUAutoReseed/tree/master/docker</Support>
+  <Project>https://github.com/ledccn/IYUUAutoReseed</Project>
+  <Overview>iyuuautoreseed</Overview>
+  <Category>Tools:</Category>
+  <ExtraParams>-d</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/iyuuautoreseed.xml</TemplateURL>
+  <Icon>https://github.com/sofs2005/unraidtemp/raw/main/Icons/printer.png</Icon>
+  <Description>cups-google-print</Description>
+  <Config Name="cron" Target="cron" Default="0 9 * * 0" Mode="" Description="cron" Type="Variable" Display="always" Required="false" Mask="false">0 9 * * 0</Config>
+  <Config Name="config" Target="/config.php" Default="/mnt/disk1/dockerfiles/iyuuautoreseed/root/config.php" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/iyuuautoreseed/root/config.php</Config>
+</Container>
