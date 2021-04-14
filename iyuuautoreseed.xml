@@ -11,9 +11,10 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8787]/</WebUI>
 <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/iyuuautoreseed.xml</TemplateURL>
-  <Icon>https://github.com/sofs2005/unraidtemp/raw/main/Icons/printer.png</Icon>
+  <Icon>https://cdn.iyuu.cn/usr/uploads/logo/logo.png</Icon>
   <Description>iyuuplus</Description>
   <Config Name="port" Target="8787" Default="8787" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">8787</Config>
+  <Config Name="cron" Target="cron" Default="0 9 * * 0" Mode="" Description="cron" Type="Variable" Display="always" Required="false" Mask="false">0 9 * * 0</Config>
   <Config Name="db" Target="/IYUU/db" Default="/mnt/disk1/dockerfiles/iyuuautoreseed/db" Mode="rw" Description="db" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/iyuuautoreseed/db</Config>
   <Config Name="tr" Target="/IYUU/tr" Default="/mnt/disk1/dockerfiles/iyuuautoreseed/tr" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/iyuuautoreseed/tr</Config>
 </Container>
