@@ -10,7 +10,7 @@
   <Overview>iyuuplus</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8787]/</WebUI>
-<TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/iyuuautoreseed.xml</TemplateURL>
+<TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/iyuuplus.xml</TemplateURL>
   <Icon>https://cdn.iyuu.cn/usr/uploads/logo/logo.png</Icon>
   <Description>iyuuplus</Description>
   <Config Name="port" Target="8787" Default="8787" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">8787</Config>
