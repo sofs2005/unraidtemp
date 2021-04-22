@@ -17,7 +17,7 @@
   <Config Name="dev" Target="/dev" Default="/dev/" Mode="rw" Description="dev" Type="Path" Display="always" Required="true" Mask="false">/dev/</Config>
   <Config Name="avahi" Target="/avahi" Default="/etc/avahi/services" Mode="rw" Description="avahi" Type="Path" Display="always" Required="true" Mask="false">/etc/avahi/services</Config>
   <Config Name="dbus" Target="/var/run/dbus" Default="/var/run/dbus" Mode="rw" Description="dbus" Type="Path" Display="always" Required="true" Mask="false">/var/run/dbus</Config>
-  <Config Name="TZ" Target="TZ" Default="UTC" Mode="" Description="TZ" Type="Variable" Display="always" Required="false" Mask="false">UTC</Config>
+  <Config Name="TZ" Target="TZ" Default="UTC" Mode="" Description="TZ" Type="Variable" Display="always" Required="false" Mask="false">UTC+8</Config>
   <Config Name="HOST_OS" Target="HOST_OS" Default="unRAID" Mode="" Description="HOST_OS" Type="Variable" Display="always" Required="false" Mask="false">unRAID</Config>
   <Config Name="CUPS_USER_ADMIN" Target="CUPS_USER_ADMIN" Default="admin" Mode="" Description="CUPS_USER_ADMIN" Type="Variable" Display="always" Required="false" Mask="false">admin</Config>
   <Config Name="CUPS_USER_PASSWORD" Target="CUPS_USER_PASSWORD" Default="pass" Mode="" Description="CUPS_USER_PASSWORD" Type="Variable" Display="always" Required="false" Mask="false">pass</Config>
