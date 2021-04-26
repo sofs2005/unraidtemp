@@ -14,4 +14,5 @@
   <Icon>http://m.tiantang.mogencloud.com/img/logo.b58df1d6.png</Icon>
   <Description>ttnode</Description>
   <Config Name="mnts" Target="/mnts" Default="/mnt/disks/AI_Mass_Storage/" Mode="rw" Description="mnts" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/</Config>
- </Container>
+  <Config Name="config" Target="/config" Default="/mnt/disks/AI_Mass_Storage/config" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/config</Config>
+</Container>
