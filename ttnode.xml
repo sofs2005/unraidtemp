@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ttnode</Name>
-  <Repository>hc8903/ttnode-x86</Repository>
+  <Repository>ericwang2006/ttnode</Repository>
   <Network>br0</Network>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
@@ -13,5 +13,5 @@
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/ttnode.xml</TemplateURL>
   <Icon>http://m.tiantang.mogencloud.com/img/logo.b58df1d6.png</Icon>
   <Description>ttnode</Description>
-  <Config Name="mnts" Target="/ttnode" Default="/mnt/disks/AI_Mass_Storage/" Mode="rw" Description="ttnode" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/</Config>
+  <Config Name="mnts" Target="/mnts" Default="/mnt/disks/AI_Mass_Storage/" Mode="rw" Description="mnts" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/</Config>
  </Container>
