@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ttnode</Name>
+  <hostname>ttnode</hostname>
   <Repository>ericwang2006/ttnode</Repository>
   <Network>br0</Network>
   <Shell>sh</Shell>
@@ -9,7 +10,6 @@
   <Category>Tools:</Category>
   <WebUI>https://[IP]:[PORT:631]/</WebUI>
   <ExtraParams>-itd</ExtraParams>
-  <PostArguments>/start.sh</PostArguments>
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/ttnode.xml</TemplateURL>
   <Icon>http://m.tiantang.mogencloud.com/img/logo.b58df1d6.png</Icon>
   <Description>ttnode</Description>
