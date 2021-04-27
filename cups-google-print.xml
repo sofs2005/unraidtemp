@@ -2,9 +2,12 @@
 <Container version="2">
   <Name>cups-google-print</Name>
   <Repository>mnbf9rca/cups-google-print</Repository>
+  <Registry>https://hub.docker.com/r/mnbf9rca/cups-google-print/</Registry>
   <Network>host</Network>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
+  <Support>https://github.com/mnbf9rca/cups-google-print</Support>
+  <Project>https://github.com/mnbf9rca/cups-google-print</Project>
   <Overview>cups-google-print</Overview>
   <Category>Tools:</Category>
   <WebUI>https://[IP]:[PORT:631]/</WebUI>
