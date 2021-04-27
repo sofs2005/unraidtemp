@@ -6,13 +6,15 @@
   <Network>br0</Network>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Overview>ttnode</Overview>
+  <Support>https://www.right.com.cn/forum/thread-4059329-1-1.html</Support>
+  <Project>https://github.com/ericwang2006/docker_ttnode</Project>
+  <Overview>甜糖</Overview>
   <Category>Tools:</Category>
   <WebUI>https://[IP]:[PORT:1043]/</WebUI>
   <ExtraParams>-itd</ExtraParams>
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/ttnode.xml</TemplateURL>
   <Icon>http://m.tiantang.mogencloud.com/img/logo.b58df1d6.png</Icon>
   <Description>ttnode</Description>
-  <Config Name="mnts" Target="/mnts" Default="/mnt/disks/AI_Mass_Storage/" Mode="rw" Description="mnts" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/</Config>
-  <Config Name="config" Target="/config" Default="/mnt/disks/AI_Mass_Storage/config" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/config</Config>
+  <Config Name="mnts" Target="/mnts" Default="/mnt/disks/AI_Mass_Storage/" Mode="rw" Description="甜糖缓存目录" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/</Config>
+  <Config Name="config" Target="/config" Default="/mnt/disks/AI_Mass_Storage/config" Mode="rw" Description="配置目录" Type="Path" Display="always" Required="true" Mask="false">/mnt/disks/AI_Mass_Storage/config</Config>
 </Container>
