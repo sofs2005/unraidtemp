@@ -10,7 +10,7 @@
   <Project>https://github.com/ericwang2006/docker_ttnode</Project>
   <Overview>甜糖</Overview>
   <Category>Tools:</Category>
-  <WebUI>https://[IP]:[PORT:1043]/</WebUI>
+  <WebUI>http://[IP]:[PORT:1043]/</WebUI>
   <ExtraParams>-itd</ExtraParams>
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/ttnode.xml</TemplateURL>
   <Icon>http://m.tiantang.mogencloud.com/img/logo.b58df1d6.png</Icon>
