@@ -16,12 +16,11 @@
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
   <Description>JD bot版</Description>
   <Config Name="port" Target="5700" Default="9876" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5801</Config>
-  <Config Name="config" Target="/jd/config" Default="/mnt/disk1/dockerfiles/jd/jd/config/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd1/config/</Config>
-  <Config Name="log" Target="/jd/log" Default="/mnt/disk1/dockerfiles/jd/jd/log/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd1/log/</Config>
-  <Config Name="own" Target="/jd/own" Default="/mnt/disk1/dockerfiles/jd/jd/own/" Mode="rw" Description="db" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd1/own/</Config>
-  <Config Name="scripts" Target="/jd/scripts" Default="/mnt/disk1/dockerfiles/jd/jd/scripts/" Mode="rw" Description="scripts" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd1/scripts/</Config>
+  <Config Name="config" Target="/jd/config" Default="/mnt/disk1/dockerfiles/jd/jd/config/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/config/</Config>
+  <Config Name="log" Target="/jd/log" Default="/mnt/disk1/dockerfiles/jd/jd/log/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/log/</Config>
+  <Config Name="own" Target="/jd/own" Default="/mnt/disk1/dockerfiles/jd/jd/own/" Mode="rw" Description="own" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/own/</Config>
+  <Config Name="botdiy" Target="/jd/jbot/diy" Default="/mnt/disk1/dockerfiles/jd/jd/jbot/diy/" Mode="rw" Description="botdiy" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/jbot/diy</Config>
+  <Config Name="scripts" Target="/jd/scripts" Default="/mnt/disk1/dockerfiles/jd/jd/scripts/" Mode="rw" Description="scripts" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/scripts/</Config>
   <Config Name="ENABLE_HANGUP" Target="ENABLE_HANGUP" Default="true" Mode="" Description="crazy joy" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="ENABLE_TTYD" Target="ENABLE_TTYD" Default="true" Mode="" Description="autoweb" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="ENABLE_TG_BOT" Target="ENABLE_TG_BOT" Default="true" Mode="" Description="tgbot" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
-  <Config Name="ENABLE_WEB_PANEL" Target="ENABLE_WEB_PANEL" Default="true" Mode="" Description="web panel" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
 </Container>
