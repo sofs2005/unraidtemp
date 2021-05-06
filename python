@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>python</Name>
+  <hostname>python</hostname>
+  <Repository>python</Repository>
+  <Registry>https://hub.docker.com/_/python</Registry>
+  <Network>br0</Network>
+  <Shell>sh</Shell>
+</Container>
