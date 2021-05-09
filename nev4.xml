@@ -3,7 +3,7 @@
   <Name>jd</Name>
   <Repository>nevinee/jd:v4-bot</Repository>
   <Registry>https://hub.docker.com/r/nevinee/jd</Registry>
-  <Network>bridge</Network>
+  <Network>br0</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/nevinee/jd</Support>
@@ -15,7 +15,7 @@
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/nev4.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
   <Description>JD bot版</Description>
-  <Config Name="port" Target="5700" Default="9876" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5801</Config>
+  <Config Name="port" Target="5678" Default="5678" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5678</Config>
   <Config Name="config" Target="/jd/config" Default="/mnt/disk1/dockerfiles/jd/jd/config/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/config/</Config>
   <Config Name="log" Target="/jd/log" Default="/mnt/disk1/dockerfiles/jd/jd/log/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/log/</Config>
   <Config Name="own" Target="/jd/own" Default="/mnt/disk1/dockerfiles/jd/jd/own/" Mode="rw" Description="own" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/dockerfiles/jd/jd/own/</Config>
