@@ -15,7 +15,7 @@
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/nev4.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jdczf.png</Icon>
   <Description>JD bot改</Description>
-  <Config Name="port" Target="5700" Default="9876" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5801</Config>
+  <Config Name="port" Target="5678" Default="5678" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5678</Config>
   <Config Name="config" Target="/jd/config" Default="/mnt/dockerfiles/jd/jdg/config/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/dockerfiles/jd/jdg/config/</Config>
   <Config Name="log" Target="/jd/log" Default="/mnt/dockerfiles/jd/jdg/log/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/dockerfiles/jd/jdg/log/</Config>
   <Config Name="own" Target="/jd/own" Default="/mnt/dockerfiles/jd/jdg/own/" Mode="rw" Description="own" Type="Path" Display="always" Required="true" Mask="false">/mnt/dockerfiles/jd/jdg/own/</Config>
