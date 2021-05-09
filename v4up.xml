@@ -12,7 +12,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:5678]/</WebUI>
   <ExtraParams>-it</ExtraParams>
-  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/nev4.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/v4up.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jdczf.png</Icon>
   <Description>JD bot改</Description>
   <Config Name="port" Target="5678" Default="5678" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5678</Config>
