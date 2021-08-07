@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>jdpro</Name>
-  <Repository>drewnb/jd_pro:v5</Repository>
-  <Registry>https://registry.hub.docker.com/r/drewnb/jd_pro</Registry>
+  <Repository>softs2005/jdpro</Repository>
+  <Registry>https://registry.hub.docker.com/r/softs2005/jdpro</Registry>
   <Network>br0</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/drew0531/jd_pro</Support>
-  <Project>https://github.com/drew0531/jd_pro</Project>
-  <Overview>JD bot版</Overview>
+  <Support>https://github.com/sofs2005/unraidtemp</Support>
+  <Project>https://github.com/sofs2005/unraidtemp</Project>
+  <Overview>JD V4 Pro版</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:5678]/</WebUI>
   <ExtraParams>-it</ExtraParams>
@@ -16,7 +16,7 @@
   <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
   <Description>JD v4改进版</Description>
   <Config Name="port" Target="5678" Default="5678" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">5678</Config>
-  <Config Name="port" Target="6789" Default="6789" Mode="tcp" Description="qr" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
+  <Config Name="port" Target="6789" Default="6789" Mode="tcp" Description="qr备用" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
   <Config Name="config" Target="/jd/config" Default="/mnt/user/dockerfiles/jd/jd/config/" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/jd/jd/config/</Config>
   <Config Name="log" Target="/jd/log" Default="/mnt/user/dockerfiles/jd/jd/log/" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/jd/jd/log/</Config>
   <Config Name="own" Target="/jd/own" Default="/mnt/user/dockerfiles/jd/jd/own/" Mode="rw" Description="own" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/jd/jd/own/</Config>
@@ -24,5 +24,6 @@
   <Config Name="scripts" Target="/jd/scripts" Default="/mnt/user/dockerfiles/jd/jd/scripts/" Mode="rw" Description="scripts" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/jd/jd/scripts/</Config>
   <Config Name="ENABLE_HANGUP" Target="ENABLE_HANGUP" Default="true" Mode="" Description="crazy joy" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="ENABLE_TG_BOT" Target="ENABLE_TG_BOT" Default="true" Mode="" Description="tgbot" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="ENABLE_TTYD" Target="ENABLE_TTYD" Default="true" Mode="" Description="tgbot" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="ENABLE_BALLOON" Target="ENABLE_BALLOON" Default="true" Mode="" Description="cfd气球" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="ENABLE_TTYD" Target="ENABLE_TTYD" Default="true" Mode="" Description="TTYD备用" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
 </Container>
