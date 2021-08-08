@@ -28,6 +28,6 @@
   <Config Name="ENABLE_JDCK" Target="ENABLE_JDCK" Default="true" Mode="" Description="JDCK" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="QYWX_KEY" Target="QYWX_KEY" Default="" Mode="" Description="QYWX_KEY" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="QYWX_AM" Target="QYWX_AM" Default="" Mode="" Description="QYWX_AM" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="UPDATE_API" Target="UPDATE_API" Default="true" Mode="" Description="UPDATE_API" Type="Variable" Display="always" Required="false" Mask="false">http://127.0.0.1:5678/updateCookie</Config>
+  <Config Name="UPDATE_API" Target="UPDATE_API" Default="" Mode="" Description="UPDATE_API" Type="Variable" Display="always" Required="false" Mask="false">http://127.0.0.1:5678/updateCookie</Config>
   <Config Name="ENABLE_TTYD" Target="ENABLE_TTYD" Default="true" Mode="" Description="TTYD备用" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
 </Container>
