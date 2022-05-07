@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>sillyGirl</Name>
+  <Repository>mzzsfy/sillygirl</Repository>
+  <Registry>https://registry.hub.docker.com/r/mzzsfy/sillygirl</Registry>
+  <Network>br0</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://registry.hub.docker.com/r/mzzsfy/sillygirl</Support>
+  <Project>https://registry.hub.docker.com/r/mzzsfy/sillygirl</Project>
+  <Overview>傻妞</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:808]/</WebUI>
+  <ExtraParams>-itd</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/sillyGirl.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png</Icon>
+  <Description>傻妞</Description>
+  <Config Name="port" Target="808" Default="" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">808</Config>
+  <Config Name="config" Target="/etc/sillyGirl" Default="" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/jd/ql/sillyGirl/</Config>
+ </Container>
