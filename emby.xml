@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Emby</Name>
+  <Repository>lovechen/embyserver:beta</Repository>
+  <Registry>https://hub.docker.com/r/lovechen/embyserver</Registry>
+  <Network>Host</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/lovechen/embyserver</Support>
+  <Project>https://hub.docker.com/r/lovechen/embyserver</Project>
+  <Overview>Emby开心版</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8096]/</WebUI>
+  <ExtraParams>-it</ExtraParams>
+  <device>/dev/dri</device>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/emby.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/Icons/emby.png</Icon>
+  <Description>Emby开心版</Description>
+  <Config Name="web" Target="8096" Default="8096" Mode="tcp" Description="web" Type="Port" Display="always" Required="false" Mask="false">8096</Config>
+  <Config Name="https" Target="8920" Default="8920" Mode="tcp" Description="https" Type="Port" Display="always" Required="false" Mask="false">8920</Config>
+  <Config Name="dlna" Target="1900" Default="1900" Mode="udp" Description="dlna" Type="Port" Display="always" Required="false" Mask="false">1900</Config>
+  <Config Name="netshare" Target="7359" Default="7359" Mode="udp" Description="netshare" Type="Port" Display="always" Required="false" Mask="false">7359</Config>
+  <Config Name="config" Target="/config" Default="" Mode="rw" Description="config" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/EmbyServer</Config>
+  <Config Name="data" Target="/data" Default="" Mode="rw" Description="log" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Movie/incomplete/</Config>
+  <Config Name="UID" Target="UID" Default="true" Mode="" Description="UID" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="GID" Target="GID" Default="true" Mode="" Description="GID" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="GIDLIST" Target="GIDLIST" Default="true" Mode="" Description="GIDLIST" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+</Container>
