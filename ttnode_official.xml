@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TTNODE</Name>
+  <hostname>TTNODE</hostname>
+  <Repository>tiptime/ttnode</Repository>
+  <Registry>https://hub.docker.com/r/tiptime/ttnode</Registry>
+  <Network>br0</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/tiptime/ttnode</Support>
+  <Project>https://tiptime.cn/</Project>
+  <Overview>甜糖</Overview>
+  <Category>Tools:</Category>
+  <ExtraParams>-d</ExtraParams>
+  <restart>always</restart>
+  <memory>2g</memory>
+  <cpus>1.5</cpus>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/ttnode_official.xml</TemplateURL>
+  <Icon>https://tiptime.cn/img/logo.b58df1d6.png</Icon>
+  <Description>甜糖</Description>
+  <Config Name="ttnode" Target="/mnt/data/ttnode" Default="" Mode="rw" Description="ttnode" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/ttnode/data/</Config>
+  <Config Name="sock" Target="/var/run/docker.sock" Default="" Mode="rw" Description="sock" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/ttnode/sock</Config>
+</Container>
