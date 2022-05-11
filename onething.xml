@@ -15,7 +15,7 @@
   <ExtraParams>--tmpfs /tmp</ExtraParams>
   <ExtraParams>--restart=always</ExtraParams>
   <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/onething.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/icons/onething.png</Icon>
+  <Icon>https://github.com/sofs2005/unraidtemp/raw/main/Icons/onething.png</Icon>
   <Description>网心云</Description>
   <Config Name="storage" Target="/storage" Default="" Mode="rw" Description="存储" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/onething/data/</Config>
 </Container>
