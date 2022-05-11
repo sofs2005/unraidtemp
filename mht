@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mht</Name>
+  <Repository>yangnd89/mht</Repository>
+  <Registry>https://hub.docker.com/r/yangnd89/mht</Registry>
+  <Network>br0</Network>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/yangnd89/mht</Support>
+  <Project>https://www.bdkjcdn.com/</Project>
+  <Overview>猕猴桃</Overview>
+  <Category>Tools:</Category>
+  <ExtraParams>-d</ExtraParams>
+  <ExtraParams>--restart=always</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/onething.xml</TemplateURL>
+  <Icon>https://github.com/sofs2005/unraidtemp/raw/main/Icons/mht.png</Icon>
+  <Description>猕猴桃</Description>
+  <Config Name="cache" Target="/mht_cache" Default="" Mode="rw" Description="缓存" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/mihoutao/data/</Config>
+</Container>
