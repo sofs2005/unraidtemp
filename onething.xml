@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>wxedge</Name>
+  <Repository>onething1/wxedge</Repository>
+  <Registry>https://hub.docker.com/r/onething1/wxedge</Registry>
+  <Network>br0</Network>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/onething1/wxedge</Support>
+  <Project>https://www.onethingcloud.com/</Project>
+  <Overview>网心云</Overview>
+  <Category>Tools:</Category>
+  <ExtraParams>-d</ExtraParams>
+  <ExtraParams>--tmpfs /run</ExtraParams>
+  <ExtraParams>--tmpfs /tmp</ExtraParams>
+  <ExtraParams>--restart=always</ExtraParams>
+  <TemplateURL>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/onething.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/sofs2005/unraidtemp/main/icons/onething.png</Icon>
+  <Description>网心云</Description>
+  <Config Name="storage" Target="/storage" Default="" Mode="rw" Description="存储" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dockerfiles/onething/data/</Config>
+</Container>
